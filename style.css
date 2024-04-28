@@ -1,0 +1,33 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: arial;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container{
+    grid-column: 4;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.grid-item{
+    border: solid 5px #ddd;
+    border-radius: 5px;
+    display: block;
+}
+
