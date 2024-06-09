@@ -29,6 +29,12 @@ Para utilizar este projeto, basta clonar ou baixar o repositório e abrir o arqu
 git clone https://github.com/biielcodes04/gridpics.git
 ```
 
+Ou ainda, pode visualizar a página através do link:
+
+```bash
+https://gaabsilva04dev.github.io/GridPics/
+```
+
 ## Tecnologias Utilizadas
 
 - HTML5
