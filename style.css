@@ -5,19 +5,25 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
+    background-color: whitesmoke-;
 }
 
 header{
-    background-color: #333;
+    background-color:darkslategray;
     color: #fff;
     padding: 20px;
     text-align: center;
     font-weight: bold;
 }
 
+main{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 footer{
-    background-color: #333;
+    background-color: darkslategray;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -25,13 +31,22 @@ footer{
 
 nav ul{
     margin: 0;
-    font-weight: bold;
+    list-style: none;
     list-style-type: none;
 }
 
-article{
+nav ul a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bloco{
+    background-color: antiquewhite ;
     margin: 20px;
     padding: 20px;
+    border: solid darkslategray 2px;
+    border-radius: 5px;
 }
 
 article h2{
@@ -43,7 +58,7 @@ article h2{
 
 .grid-item{
     border: solid 5px;
-    border-color: #363535;
+    border-color: darkslategray;
     border-radius: 5px;
     
 }
@@ -53,6 +68,7 @@ article h2{
     align-items: center;
     padding: 20px;
     gap: 20px;
+    background-color: antiquewhite;
 }
 
 .grid-item img{
@@ -62,7 +78,7 @@ article h2{
 
 button{
     color: #fff;
-    background-color: #363535;
+    background-color: darkslategray;
     width: 100%;
     height: 100%;
     padding: 10px;
@@ -79,6 +95,18 @@ button{
 
 .large{
     grid-column: span 2;
+}
+
+.titulo{
+    background-color: darkslategray;
+    color: white;
+    max-width: 1060px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid darkslategray;
+    border-radius: 5px;
 }
 
 @media (max-width: 1024px) 
